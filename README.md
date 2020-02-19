@@ -13,18 +13,8 @@ Macs can use "command line: od -x" for hex dump <br />
 Technologies: Microsft Visual Studios 2019: C 
 
 # Instruction Set Functionality
-* (opcode is written in parentheses, the format is written after | )
-* add(1): Adds two registers together and stores to the first register | add r# r# r#
-* addimmediate(9): Adds an integer to register | addimmediate r# #
-* and(2): Bitwise Ands two registers and stores into data into the first register | and r# r# r#
-* branchifless(11): Branches if less by designated offset | branchifless r# r# OFFSET#
-* branchifequal(10): Branches if equal by designated offset | branchifequal r# r# OFFSET#
-* divide(3): Divides two registers and stores data into first given register | divide r# r# r#
-* halt(0): Ends the program | halt
-* interrupt(8): Used to print out values in registers | interrupt 0
-* jump(12): Used to jump by number of bits | jump #
-* leftshift(7): Left shifts register value bitwise by the number written after | leftshift r# #
-* multiply(4): Multiplies two registers together and saves the value to the first register | multiply r# r# r#
-* or(6): Does a bitwise Or of two registers storing data onto first register | Or r# r# r#
-* rightshift(7): Right shifts register value bitwise by the number written after | rightshift r# #
-* subtract(5): Subtracts two registers together and stores to the first register | sub r# r# r#
+* add (opcode 1)<br/>
+	Adds the values of 2 registers and places the answer in a third register. <br/>
+	Example: add r1 r2 r3 ; r3  r1 + r2 <br/>
+	Instruction format: 3R <br/>
+  *

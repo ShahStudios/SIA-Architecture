@@ -1,5 +1,5 @@
 # SIA-Architecture
-Custom Built Computer Architecture for Machine Code.
+Custom Built Computer Architecture for Machine Code. /n
 This program uses C to make a custom machine code assembler and compiler. 
 A test case is provided to be used with the assembler and virtual machine. 
 The assembler takes user inputs from the test cases and turns into hex to be read by the virtual machine. 

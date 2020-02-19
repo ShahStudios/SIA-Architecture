@@ -1,18 +1,18 @@
 # SIA-Architecture
-Custom Built Computer Architecture for Machine Code. /n
-This program uses C to make a custom machine code assembler and compiler. 
-A test case is provided to be used with the assembler and virtual machine. 
-The assembler takes user inputs from the test cases and turns into hex to be read by the virtual machine. 
+Custom Built Computer Architecture for Machine Code. <br />
+This program uses C to make a custom machine code assembler and compiler. <br />
+A test case is provided to be used with the assembler and virtual machine. <br />
+The assembler takes user inputs from the test cases and turns into hex to be read by the virtual machine. <br />
 The VM will proceed to fetch, dispatch, execute, and store the data.
 
 # Installation
-Install is as simple as downloading and running with visual studios. 
+Install is as simple as downloading and running with visual studios. <br />
 Although a command terminal with GCC will be needed to read the hex data that is printed out.
 
 # GCC installation guide
-GCC installation for windows https://www.youtube.com/watch?v=sXW2VLrQ3Bs
-Macs can use "command line: od -x" for hex dump
-Technologies: Microsft Visual Studios 2019: C
+GCC installation for windows https://www.youtube.com/watch?v=sXW2VLrQ3Bs <br />
+Macs can use "command line: od -x" for hex dump <br />
+Technologies: Microsft Visual Studios 2019: C 
 
 # Instruction Set Functionality
 * (opcode is written in parentheses, the format is written after | )

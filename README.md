@@ -52,16 +52,18 @@ Multiplies the value of the first register times the second and places the answe
 * or (opcode 6) <br/>
 	Performs a bitwise OR on 2 registers and stores the result in a third register <br/>
 	Example: or r1 r2 r3 ; r3  r1 | r2 <br/>
-*
-
-
-
-
-
-
-
-
-
-
-
-
+* pop (opcode 7)<br/>
+Copies data from stack pointer through stack pointer + 3 to specified register. Adds four to the stack pointer. <br/>
+	Example: pop R1 <br/>
+* push (opcode 7) <br/>
+Subtracts four from the stack pointer. Takes the value in the specified register and stores it in the memory address indicated by the stack pointer. <br/>
+	Example: pop R1 <br/>
+* return (opcode 7) <br/>
+	Pops the top value from the stack and jumps to that address <br/>
+	Example: return <br/>
+* store (opcode 15) <br/>
+Stores a register’s value into memory memory pointed to by another register plus 2 times the offset (0 to 30). Note that both the address in the register and the offset are in words (memory locations). <br/>
+Example: store r1 r2 10 ; stores r1’s value into the memory pointed to by r2 plus 20 bytes <br/>
+* subtract (opcode 5) <br/>
+Subtracts the value of the second register from the first and places the answer in a third register.  <br/>
+	Example: subtract r1 r2 r3 ; r3  r1 - r2 <br/>

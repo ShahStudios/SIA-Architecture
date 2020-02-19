@@ -16,5 +16,7 @@ Technologies: Microsft Visual Studios 2019: C
 * add (opcode 1)<br/>
 	Adds the values of 2 registers and places the answer in a third register. <br/>
 	Example: add r1 r2 r3 ; r3  r1 + r2 <br/>
-	Instruction format: 3R <br/>
-  *
+* addimmediate (opcode 9) <br/>
+	Adds a signed 8 bit value to a register <br/>
+	Example: addimediate r1 -127 ; adds -127 to r1 <br/>
+* 

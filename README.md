@@ -1,8 +1,6 @@
 # SIA-Architecture
 Custom Built Computer Architecture for Machine Code. <br />
-This program uses C to make a custom machine code assembler and compiler. <br />
-A test case is provided to be used with the assembler and virtual machine. <br />
-The assembler takes user inputs from the test cases and turns into hex to be read by the virtual machine. <br />
+This program uses C to make a custom machine code assembler and compiler. A test case is provided to be used with the assembler and virtual machine. The assembler takes user inputs from the test cases and turns into hex to be read by the virtual machine.
 The VM will proceed to fetch, dispatch, execute, and store the data.
 
 # Installation
